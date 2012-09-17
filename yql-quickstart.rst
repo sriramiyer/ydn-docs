@@ -18,3 +18,6 @@ Under "Example Queries" click the "find sushi restaurants in san francisco" quer
 
 #. Run the Example Query
 ------------------------
+
+Select the desired output format (XML or JSON) and click the "Test" button.
+
