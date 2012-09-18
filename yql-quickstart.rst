@@ -19,17 +19,18 @@ Under "Example Queries" click the "find sushi restaurants in san francisco" quer
 3. Run the Example Query
 ------------------------
 
-Select the desired output format (XML or JSON) and click the "Test" button. This returns all fields of the *local.search* table. The filters in the WHERE clause restrict the output prouced by the table.
+Select the desired output format (XML or JSON) and click the "Test" button. This returns all fields of the *local.search* table. The filters in the WHERE clause restrict the output prouced by the table. Observe the output of the query, and note the various fields returned in the response.
 
 4. Tweak the example Query
 --------------------------
 
 Here are some things you can do to get a feel of YQL and the *local.search* table:
 
-	a. Replace the "sushi" in the original query to "pizza" and see how the output changes.
-	b. Replace the \* in the original query with ``Title, Address, City`` and see how the output changes.
-	c. Add ``limit 5`` to the original query and see how the number of results returned is restricted to 5.
-	d. Add ``| sort (field="Rating.AverageRating")`` to the original query and see how the results with lowest ratings are shown on top.
+	#. Replace the "sushi" in the original query to "pizza" and see how the output changes.
+	#. Replace the \* in the original query with ``Title, Address, City`` and see how the output changes.
+	#. Add ``limit 5`` to the original query and see how the number of results returned is restricted to 5.
+	#. Add ``| sort (field="Rating.AverageRating")`` to the original query and see how the results with lowest ratings are shown on top.
+	#. Copy the "REST QUERY" at the bottom of the page and paste it into a new browser window - this is the way that almost all applications invoke YQL directly.
 
 5. Explore
 ----------
