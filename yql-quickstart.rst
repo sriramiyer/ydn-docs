@@ -26,7 +26,7 @@ Select the desired output format (XML or JSON) and click the "Test" button. This
 
 Here are some things you can do to get a feel of YQL and the *local.search* table:
 
-	#. Replace the "sushi" in the original query to "pizza" and see how the output changes.
+	#. Replace the "sushi" in the original query with "pizza" and see how the output changes.
 	#. Replace the \* in the original query with ``Title, Address, City`` and see how the output changes.
 	#. Add ``limit 5`` to the original query and see how the number of results returned is restricted to 5.
 	#. Add ``| sort (field="Rating.AverageRating")`` to the original query and see how the results with lowest ratings are shown on top.
