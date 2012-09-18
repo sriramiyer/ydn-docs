@@ -2,12 +2,12 @@
 YQL Quickstart
 ==============
 
-1. Open YQL console
+1. Open the YQL console
 -------------------
 
 	http://developer.yahoo.com/yql/console/
 
-2. Choose Example Query
+2. Choose an Example Query
 -----------------------
 
 Under "Example Queries" click the "find sushi restaurants in san francisco" query.
@@ -21,7 +21,7 @@ Under "Example Queries" click the "find sushi restaurants in san francisco" quer
 
 Select the desired output format (XML or JSON) and click the "Test" button. This returns all fields of the *local.search* table. The filters in the WHERE clause restrict the output prouced by the table. Observe the output of the query, and note the various fields returned in the response.
 
-4. Tweak the example Query
+4. Tweak the Example Query
 --------------------------
 
 Here are some things you can do to get a feel of YQL and the *local.search* table:
