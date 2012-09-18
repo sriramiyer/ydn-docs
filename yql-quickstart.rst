@@ -37,7 +37,7 @@ Here are some things you can do to get a feel of YQL and the *local.search* tabl
 
 Feel free to try out other tables within the YQL console by clicking on them in the *DATA TABLES* section. You can look at what keys are available for each table by clicking the small *desc* link that pops up adjacent to the table name when you hover over it.
 
-Explore even more tables within the YQL console by clicking on the *Show Community Tables" link in the *DATA TABLES* section. This lets you try out the approximately 1200 tables developed by the vibrant YQL community outside of Yahoo!
+Explore even more tables within the YQL console by clicking on the "*Show Community Tables*" link in the *DATA TABLES* section. This lets you try out the approximately 1200 tables developed by the vibrant YQL community outside of Yahoo!
 
 6. Dive into YQL
 ----------------
