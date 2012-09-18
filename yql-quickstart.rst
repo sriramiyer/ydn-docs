@@ -26,7 +26,7 @@ Select the desired output format (XML or JSON) and click the "Test" button. This
 
 Here are some things you can do to get a feel of YQL and the *local.search* table:
 
-	a. Change the query to "pizza" and see how the output changes.
+	a. Replace the "sushi" in the original query to "pizza" and see how the output changes.
 	b. Replace the \* in the original query with ``Title, Address, City`` and see how the output changes.
 	c. Add ``limit 5`` to the original query and see how the number of results returned is restricted to 5.
 	d. Add ``| sort (field="Rating.AverageRating")`` to the original query and see how the results with lowest ratings are shown on top.
@@ -38,3 +38,7 @@ Feel free to try out other tables within the YQL console by clicking on them in 
 
 Explore even more tables within the YQL console by clicking on the *Show Community Tables" link in the *DATA TABLES* section. This lets you try out the approximately 1200 tables developed by the vibrant YQL community outside of Yahoo!
 
+6. Dive into YQL
+----------------
+
+Visit the YQL guide at http://developer.yahoo.com/yql/guide and get started on understanding how to better use YQL in your own application.
